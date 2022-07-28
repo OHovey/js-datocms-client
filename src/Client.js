@@ -55,7 +55,6 @@ export default class Client {
       'content-type': 'application/json',
       accept: 'application/json',
       authorization: `Bearer ${this.token}`,
-      'user-agent': `js-client v${pkg.version}`,
       'X-Api-Version': '3',
     };
   }
